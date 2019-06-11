@@ -16,6 +16,7 @@
           {% if page.title and page.main_nav != false %}
            {% if page.title!="typography" %}
           <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
           {% endif %}
         {% endfor %}
       </ul>
