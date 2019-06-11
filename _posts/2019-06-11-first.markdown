@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "개발을 시작한 이유"
+date:   2015-04-18 08:43:59
+author: John Choi
+categories: 개발
+---
+
+#개발을 시작한 이유
+그냥.
