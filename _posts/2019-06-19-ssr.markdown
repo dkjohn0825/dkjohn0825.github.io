@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "SSR(Server-side Rendering), SPA(Single Page Application), 반응협 웹"
+title:  "SSR(Server-side Rendering), SPA(Single Page Application), 반응형 웹"
 date:   2019-06-19 08:43:59
 author: John Choi
 sitemap:
