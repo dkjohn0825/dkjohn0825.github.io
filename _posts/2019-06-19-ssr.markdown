@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "SSR(Server-side Rendering)과 CSR(Client-Side Rendering), SPA(Single Page Application)"
+title:  "SSR(Server-side Rendering)과 CSR(Client-Side Rendering)"
 date:   2019-06-19 08:43:59
 author: John Choi
 sitemap:
@@ -17,14 +17,5 @@ categories: 개발
 - 서버에서 처리해야 할 일들을 최대한 줄이고, JS로 처리할 수 있는 부분으로 처리
 - 초기 페이지 로드가 느림.(HTML을 먼저 다운로드 한 다음, JS 및 각종 요소들을 추가로 다운로드 하는 방식)
 
-# SPA(Single Page Application)
-
-- 웹사이트의 기초적인 페이지(처음 한번 불러올 때)를 제외하고, 정보 요청 시 view 부분만 데이터를 받아 render하는 방식.
-- 초기 구동 속도가 느리다.
-- 그러나 한번 구동하고 나면 훨씬 더 좋은 사용성을 느낄 수 있다.
-- 오래된 브라우저(IE 8 이하)에서는 오류가 생길 수 있음.
-- 보안 측면에서 약하다.
-- 왜냐하면 사용되는 사용자의 정보가기존의 *세션* 기반이 아닌 클라이언트 기반 *쿠키*로 이용.
-- 그외에  *검색 엔진 최적화(SEO)*에서 어려움이 있음.
 
 
